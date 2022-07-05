@@ -86,7 +86,7 @@ make install
 #### 4. Set Minimum Gas
 
 ```bash:
-`sed -i.bak "s/minimum-gas-prices =.*/minimum-gas-prices = "0.00125ukuji"/" $HOME/.kujira/config/app.toml`
+`sed -i.bak "s/minimum-gas-prices =.*/minimum-gas-prices = "0.00125ukuji,0.00125ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F"/" $HOME/.kujira/config/app.toml`
 ```
 
 #### 5. Set Commit Timeout
